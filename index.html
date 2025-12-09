@@ -18,17 +18,30 @@
     <p id="loginError" style="color:red;"></p>
   </div>
 
-  <!-- Datos de sensores -->
+  <!-- Panel -->
   <div id="dataDiv" style="display:none;">
+
+    <h2>Sensores</h2>
     <div class="sensor">Temperatura: <span id="temp">--</span> °C</div>
     <div class="sensor">TDS: <span id="tds">--</span> ppm</div>
     <div class="sensor">pH: <span id="ph">--</span></div>
     <div class="sensor">EC: <span id="ec">--</span> μS/cm</div>
+
+    <hr>
+
+    <h2>Control del Foco</h2>
+    <button id="btnOn">ENCENDER FOCO</button>
+    <button id="btnOff">APAGAR FOCO</button>
+
+    <hr>
+
     <button id="logoutBtn">Cerrar sesión</button>
   </div>
 
-  <!-- SOLO UNA LINEA, AQUÍ VA TU JS SEPARADO -->
+  <!-- Archivo JS -->
   <script type="module" src="app.js"></script>
 
 </body>
 </html>
+
+
